@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 800px;
+    background-image: url(../img/slider-img.jpg);
+    position: relative;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-family: "Montserrat Light";
+    font-weight: 300;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.menu-link:hover {
+    color: #212121;
+}
+
+.menu-link-active {
+    /* Text style for "HOME" */
+    color: #212121;
+    font-family: "Montserrat - Bold";
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.slider-treading {
+    color: #43a047;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    /* Text style for "TRENDING" */
+    color: #43a047;
+    letter-spacing: 1.8px;
+}
+
+.slider-h2 {
+    color: #212121;
+    font-family: "Montserrat - Thin";
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.slider-content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 458px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.slider-button {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    width: 212px;
+    height: 45px;
+    line-height: 45px;
+    letter-spacing: 3.6px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+}
+
+.slider-button:active{
+    box-shadow: none;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle:hover{
+    background-color: #212121;
+}
+
+.circle-active {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-color: black;
+    margin-bottom: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.padding-top {
+    padding-top: 63px;
+}
+
+.menu{
+    float: right;
+}
+
+.slider-text{
+    margin-top: 288px
+}
+
+.pagination {
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}

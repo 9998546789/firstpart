@@ -1,0 +1,75 @@
+body {
+    background: #f8f8f8;
+}
+
+.main_menu {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.main_menu li a {
+    text-decoration: none;
+    color: #666;
+    font-size: 1.1em;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.heading {
+    text-align: center;
+}
+
+.characteristics {
+    list-style-type: armenian;
+}
+
+.short_description,
+.characteristics li,
+.main_description {
+    text-align: center;
+    background-color: #eaeaea;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.short_description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.main_description {
+    color: #484343;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.characteristics li {
+    color: darkblue;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    outline: 3px solid gray;
+    /* Цветная рамка */
+}
+
+ol li {
+    text-align: left: ;
+}
+
+ol li a {
+    
+    color: #707070;
+    font-weight: 500;
+    font-size: 2em;
+}
+

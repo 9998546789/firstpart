@@ -1,0 +1,50 @@
+form {
+    background-color: #f2f2f2;
+}
+
+.input1 {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin: 8px 0;
+    border-radius: 4px;
+}
+
+input[type=text],
+legend,
+label {
+    font-size: 1em;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.input1{
+    text-transform:capitalize;
+}
+
+input[type=text]:focus {
+    background-color: lightgrey;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+div.info_lables {
+    display: block;
+    margin-left: 10px;
+    margin-right: auto
+}
+
+p iframe{
+    width=1550%;
+    height=574px;
+}

@@ -1,0 +1,26 @@
+.trending-products {
+    height: auto;
+    width: 1366px;
+}
+
+.trending-products-images {
+    margin-top: 64px;
+
+}
+
+.trending-products-image {
+    float: left;
+    padding: 10px 10px;
+}
+
+.trending-menu {
+    margin-top: 119px;
+}
+
+.trending-menu-h1 {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    float: left;
+}

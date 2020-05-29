@@ -1,0 +1,21 @@
+.characteristics_table {
+    text-align : center;
+    border : 1px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.characteristics_table td {
+    text-align : center;
+    border : 1px solid #000;
+    vertical-align: top;
+}
+
+.params {
+    font-size: 1em;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}

@@ -1,0 +1,10 @@
+.product{
+    width: 400px;
+    height: 300px;
+    float:left;
+}
+
+.product{
+    margin: 0 auto;
+    width: 370px;
+}

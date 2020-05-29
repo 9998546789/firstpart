@@ -1,0 +1,13 @@
+.hot-deal {  
+    height: 800px;
+    background-image: url(../img/slider-table.jpg);
+}
+
+.hot-deal-slider-text{
+    padding-top: 228px;
+}
+
+.hot-deal-pagination{
+    margin-top: 226px;
+    margin-left: 513px;
+}

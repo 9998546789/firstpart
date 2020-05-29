@@ -1,0 +1,54 @@
+.two-img-promo1 {
+    width: 682px;
+    height: 682px;
+    background-image: url(../img/promo-img1.jpg);
+    float: left;
+}
+
+.two-img-promo2 {
+    width: 682px;
+    height: 682px;
+    background-image: url(../img/promo-img2.jpg);
+    float: left;
+}
+
+.two-img-h2 {
+    color: #1e88e5;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.two-img-h2-position{
+    margin-top: 228px;
+    margin-left: 51px;
+}
+
+
+.two-img-h1 {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 18px;
+    margin-left: 52px;
+}
+
+.two-img-p {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24.04px;
+    margin-top: 18px;
+    margin-left: 52px;
+    margin-right: 259px;
+}
+
+.two-img-slider-button{
+        margin-top: 18px;
+    margin-left: 52px;
+}

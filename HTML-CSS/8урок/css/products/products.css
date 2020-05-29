@@ -1,0 +1,38 @@
+.menu-products-page {
+    padding-top: 71px;
+}
+
+.menu-list-products-page {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link-products-page {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.menu-link-products-page:hover {
+    color: #212121;
+}
+
+.menu-link-active-products-page {
+    /* Text style for "HOME" */
+    color: #212121;
+    font-family: "Montserrat";
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    border-bottom: 3px solid #212121;
+}
+
+.reload {
+    margin-left: 72px;
+    margin-top: 71px;
+    margin-bottom: 71px;
+}

@@ -1,0 +1,116 @@
+.footer {
+    width: 1366px;
+    height: 384px;
+    background-image: url(../img/footer-back.jpg);
+}
+
+.footer-block-padding {
+    padding-top: 120px;
+    float: left;
+}
+
+.footer-block-1 {
+    width: 221px;
+    height: 136px;
+    padding-right: 80px;
+}
+
+.block-header {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    /* Text style for "C, ontact" */
+    letter-spacing: 1.8px;
+}
+
+.block1-p {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding-top: 25px;
+}
+
+.block2-p1,
+.block2-p2 {
+    /* Style for "Sales term" */
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Text style for "Sales term" */
+    letter-spacing: 0.7px;
+    padding-top: 25px;
+}
+
+.footer-block-3 {
+    width: 363px;
+}
+
+.block-input {
+    width: 370px;
+    height: 48px;
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+}
+
+.block-input[value] {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding-left: 19px;
+}
+
+.block2 {
+    width: 182px;
+    height: 62px;
+    float: left;
+    padding-right: 50px;
+}
+
+.block3-p {
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.footer-info {
+    float: left;
+    padding-top: 10px;
+    padding-left: 80px;
+}
+
+.info-header {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Text style for "©,  Copyri" */
+    letter-spacing: 0.6px;
+}
+
+.info-term {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Text style for "T, erms &" */
+    letter-spacing: 0.6px;
+}

@@ -1,0 +1,58 @@
+.contact-header {
+    width: 1366px;
+    height: 360px;
+    background-image: url(../../img/contacts/hero-back.svg);
+}
+
+.main-header {
+    width: 1366px;
+    height: 563px;
+}
+
+.title {
+    color: #212121;
+    font-family: "Montserrat";
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 72px;
+    padding-top: 161px;
+}
+
+.addresses {
+    margin-left: 100px;
+    margin-top: 71px;
+}
+
+.address {
+    width: 370px;
+    height: 370px;
+    float: left;
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    opacity: 0.9;
+    margin: 15px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.concr-address {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    padding: 50px;
+}
+
+.calif {
+    padding: 10px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29.88px;
+    text-transform: uppercase;
+}

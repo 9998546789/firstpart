@@ -1,0 +1,111 @@
+.product-header {
+    height: 150px;
+}
+
+.product-menu-block {
+    height: 170px;
+}
+
+.trending-menu-page {
+    height: 70px;
+    background-image: url(../../img/product-menu-back.svg);
+    margin: 1px;
+}
+
+.trending-products-product-page {
+    height: 599px;
+}
+
+.chair-block {
+    height: 658px;
+    margin-top: 100px;
+}
+
+.chair-imgs {
+    float: left;
+    padding-right: 50px;
+}
+
+.chair-imgs {
+    float: left
+}
+
+.lt-img {
+    float: left;
+}
+
+.marginleft {
+    margin-left: 180px;
+}
+
+.chair-button-img {
+    width: 510px;
+    height: 71px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 35px;
+    background-color: #f44336;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 70px;
+    text-transform: uppercase;
+    letter-spacing: 4.4px;
+}
+
+.chair-button-img:active{
+    box-shadow: none;
+}
+
+.chair-p {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24.01px;
+    /* Text style for "The majest" */
+    letter-spacing: 0.4px;
+    text-align: center;
+    padding: 30px;
+}
+
+.chair-price {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48.02px;
+    font-size: 72px;
+    text-align: center;
+    padding: 30px;
+}
+
+.chair-h2 {
+    color: #e53935;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48.02px;
+    text-transform: uppercase;
+    /* Text style for "Hot Deal" */
+    color: #e53935;
+    letter-spacing: 1.8px;
+    text-align: center;
+}
+
+.chair-h1 {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.menu-products-page {
+    padding-top: 20px;
+    padding-left: 250px;
+}

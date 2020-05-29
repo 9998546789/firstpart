@@ -1,0 +1,29 @@
+.exclusive-images {
+    height: 810px;
+    width: 1366px;
+  
+}
+
+.exclusive-big-image {
+    width: 570px;
+    height: 570px;
+    background-image: url(../img/product-1-lg.jpg);
+    margin-top: 120px;
+    margin-left: 98px;
+    float: left;
+}
+
+.exclusive-image{
+    float: left;
+    padding: 15px;
+}
+
+.exclusive-for-image{
+    padding-top: 106px;
+    padding-left: 698px;
+}
+
+.exclusive-for-image-h2-position{
+    margin-top: 156px;
+    margin-left: 51px;
+}

@@ -1,0 +1,51 @@
+.main_menu {
+    list-style-type: none;
+    text-transform: uppercase;
+    float: right;
+}
+
+.main_menu > li {
+    width: 230px;
+    height: 3em;
+    border: 1px solid black;
+    display: inline-block;
+    padding-top: 1em;
+    padding-left: 1em;
+    
+}
+
+.main_menu a {
+    width: 100%;
+    display: block;
+    height: 3em;    
+}
+
+.main_menu li a {
+    text-decoration: none;
+    color: #667;
+    font-size: 1.1em;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.main_menu li a:hover{
+    color: black;
+}
+
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.header {
+    background-image: url(https://www.bates.edu/wordpress/files/2016/07/pattern2.jpg);
+}

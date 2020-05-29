@@ -1,0 +1,16 @@
+.main_menu {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.main_menu li a {
+    text-decoration: none;
+    color: #667;
+    font-size: 1.1em;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.main_menu li a:hover{
+    color: black;
+}

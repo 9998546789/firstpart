@@ -1,0 +1,97 @@
+body {
+    background: #f8f8f8;
+}
+
+.heading {
+    text-align: center;
+}
+
+.characteristics {
+    list-style-type: armenian;
+}
+
+.short_description,
+.characteristics li,
+.main_description {
+    text-align: center;
+    background-color: #eaeaea;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.short_description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.main_description {
+    color: #484343;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.characteristics li {
+    color: darkblue;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    outline: 5px solid gray;
+    /* Цветная рамка */
+}
+
+.photo:hover {
+    outline: none;
+}
+
+ol li {
+    text-align: left: ;
+}
+
+ol li a {
+    color: #707070;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+p:first-letter,
+h1:first-letter,
+h3:first-letter{
+    font-size: 130%;
+    color:brown;
+}
+
+.header{
+    height: 150px;
+}
+
+.footer{
+    clear: both;
+    background-color: lightgray;
+    height: 150px;
+}
+
+.footer p{
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.main_block{
+    margin: 0 auto;
+    clear: both;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
