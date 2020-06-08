@@ -6,7 +6,7 @@
 # Результат: [12, 44, 4, 10, 78, 123].
 
 
-my_list = [300, 2, 12, 44, 1, 1, 4, 10, 7, 1, 78, 123, 55]
-print(my_list)
-new_list = [el for i, el in enumerate(my_list) if i != 0 and my_list[i] > my_list[i - 1]]
+li = [300, 2, 12, 44, 1, 1, 4, 10, 7, 1, 78, 123, 55]
+print(li)
+new_list = [current for previous, current in zip(li, li[1:]) if current > previous]
 print(new_list)
