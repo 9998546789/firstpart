@@ -7,6 +7,4 @@
 
 
 li = [300, 2, 12, 44, 1, 1, 4, 10, 7, 1, 78, 123, 55]
-print(li)
-new_list = [current for previous, current in zip(li, li[1:]) if current > previous]
-print(new_list)
+print([current for previous, current in zip(li, li[1:]) if current > previous])
