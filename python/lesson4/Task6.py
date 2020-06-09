@@ -27,17 +27,14 @@ except ValueError:
     print('Введите int')
 
 
-try:
-    print("Задание Б:")
-    array_alphabet = ["A", "B", "C", "D"]
-    iter_alphabet = cycle(array_alphabet)
-    for el in count(1):
-        if el > len(array_alphabet):
-            break
-        else:
-            print(next(iter_alphabet))
-except ValueError:
-    print('Введите int')
+print("Задание Б:")
+array_alphabet = ["A", "B", "C", "D"]
+iter_alphabet = cycle(array_alphabet)
+for el in count(1):
+    if el > len(array_alphabet):
+        break
+    else:
+        print(next(iter_alphabet))
 
 
 
