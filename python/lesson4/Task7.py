@@ -7,15 +7,6 @@
 # Например, факториал четырёх 4! = 1 * 2 * 3 * 4 = 24.
 
 
-# def fact(x):
-#     def factorial_rec(i, value, acc):
-#         if i >= value:
-#             yield acc
-#         else:
-#             yield from factorial_rec(i + 1, value, acc * (i + 1))
-#     return factorial_rec(0, x, 1)
-
-
 def fact(x: int):
     acc = 1
     for item in range(1, x + 1):
