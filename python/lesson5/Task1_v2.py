@@ -5,7 +5,7 @@
 
 with open("task1_text.txt", 'a') as f_obj:
     while True:
-        value = input("Ввод пустой строки - выход. Ведите строку для записи в файл: ")
+        value = input("Ввод пустой строки - выход. Введите строку для записи в файл: ")
         if value == "":
             break
         f_obj.write(f"{value}\n")
