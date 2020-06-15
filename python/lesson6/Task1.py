@@ -13,7 +13,7 @@
 
 import enum
 import time
-from statemachine import StateMachine, State
+from statemachine import StateMachine, State  # pip install python-statemachine
 
 
 class TrafficLightColor(enum.Enum):
@@ -57,7 +57,3 @@ class TrafficLightMachine(StateMachine):
 
 traffic_light = TrafficLightMachine()
 traffic_light.running()
-
-
-
-
