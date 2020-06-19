@@ -29,10 +29,6 @@ class Matrix:
     def reducer_elements_func(self, el_prev, el):
         return f"{str(el_prev)}, {str(el)}"
 
-    def __str__(self):
-        string_rows = [f"{reduce(self.reducer_elements_func, x)} \n" for x in self.array2d]
-        return reduce(lambda x1, x2: f"{x1}{x2}", string_rows)
-
     def add_matrices(self, c, d):
         return [[a + b for a, b in zip(row1, row2)] for row1, row2 in zip(c, d)]
 
@@ -41,6 +37,10 @@ class Matrix:
             raise ValueError('Количество строк и колонок складываемых матриц должно быть одинаково.')
         sum = self.add_matrices(self.array2d, other.array2d)
         return Matrix(sum)
+
+    def __str__(self):
+        string_rows = [f"{reduce(self.reducer_elements_func, x)} \n" for x in self.array2d]
+        return reduce(lambda x1, x2: f"{x1}{x2}", string_rows)
 
 
 matrix1 = Matrix([[1, 2], [1, 3]])
