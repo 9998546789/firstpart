@@ -33,7 +33,7 @@ class Coat(Clothes):
         self.__v = v
 
     def tissue_consumption(self):
-        return self.__v / 6.5 + 0.5
+        return self.v / 6.5 + 0.5
 
 
 class Costume(Clothes):
