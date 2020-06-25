@@ -5,7 +5,7 @@ import string
 
 
 a = int(input("Введите номер буквы в английском алфавите: "))
-alphabet_dictionary = dict(zip([i for i in range(1, 27)], string.ascii_lowercase))
+alphabet_dictionary = dict(zip(range(1, 27), string.ascii_lowercase))
 if a in alphabet_dictionary:
     print(f"Буква: {alphabet_dictionary[a]}")
 else:
