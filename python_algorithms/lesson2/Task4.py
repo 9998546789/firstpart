@@ -4,9 +4,9 @@
 n = int(input("Введите n"))
 
 current = 1
-sum = 0
+sum = 1
 
-while n > 0:
+while n > 1:
     current *= -0.5
     sum += current
     print(f"Текущий: {current}")
