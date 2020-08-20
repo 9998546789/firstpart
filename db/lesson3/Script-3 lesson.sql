@@ -19,15 +19,17 @@ CREATE TABLE `profiles`(
 	user_id BIGINT UNSIGNED NOT NULL PRIMARY KEY,
 	hometown VARCHAR(100),
 	gender CHAR(1),
-	created_at DATETIME DEFAULT NOW()
+	created_at DATETIME DEFAULT NOW(),
+	birthday DATE,
+	FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
 -- ALTER TABLE profiles ADD CONSTRAINT fk_profiles_user_id
-FOREIGN KEY (user_id) REFERENCES users(id)
-ON UPDATE CASCADE;
+
+-- ON UPDATE CASCADE;
 -- ON DELETE restrict;
 
-ALTER TABLE profiles ADD COLUMN birthday DATE;
+-- ALTER TABLE profiles ADD COLUMN birthday DATE;
 -- ALTER TABLE profiles RENAME COLUMN birthday TO b2;
 -- ALTER TABLE profiles DROP COLUMN b2;
 
@@ -55,8 +57,8 @@ CREATE TABLE friend_request(
 	
 	PRIMARY KEY (initiator_user_id, target_user_id),
 	FOREIGN KEY (initiator_user_id) REFERENCES users(id),
-	FOREIGN KEY (target_user_id) REFERENCES users(id),
-	CHECK (initiator_user_id != target_user_id)
+	FOREIGN KEY (target_user_id) REFERENCES users(id)
+	-- CHECK (initiator_user_id != target_user_id)
 );
 
 -- ИЛИ МОЖНО ОТДЕЛЬНЫМ ЗАПРОСОМ ОТПРАВИТЬ ПРОВЕРКУ 
