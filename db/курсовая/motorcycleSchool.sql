@@ -17,14 +17,14 @@ CREATE TABLE bike_type (
 
 DROP TABLE IF EXISTS bike_history_item;
 CREATE TABLE bike_history_item (
-	bike_type_id BIGINT NOT NULL,
+	bike_type_id BIGINT UNSIGNED NOT NULL,
 	serviceable BIT(1),
 	year_of_production DATETIME DEFAULT NOW(),
 	
 	id SERIAL,
-	aggregate_id BIGINT NOT NULL,
+	aggregate_id BIGINT UNSIGNED NOT NULL,
 	created_at DATETIME DEFAULT NOW(),
-	active BIT(1)
+	active BIT(1),
 	
 	FOREIGN KEY (aggregate_id) REFERENCES bike(aggregate_id),
 	FOREIGN KEY (bike_type_id) REFERENCES bike_type(id)
@@ -73,6 +73,7 @@ CREATE TABLE place_history_item (
     email VARCHAR(120),
 	phone BIGINT UNSIGNED,
 	
+	id SERIAL,
 	aggregate_id BIGINT UNSIGNED NOT NULL,
 	created_at DATETIME DEFAULT NOW(),
 	active BIT(1),
